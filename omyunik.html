@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karakteristiske smykker inspireret af Sydasien | Yunik Jewelry</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <!-- Meta tags -->
+  <meta name="description" content="Vores guld og sølv smykker er håndlavede smykker med fokus på det unikke og karakteristiske. Oplev vores historie her. ✓ " />
+  <meta name="keywords" content="yunik, smykker i aarhus, aarhus, smykker i guld, smykker i sølv, design smykker, elegante smykker, fine smykker, kvalitet smykker" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/turn.js/0.11/turn.min.js" integrity="sha512-dLkQepDrPfgSZoIq2o0waTIn194FxRH1MpWk9j9QSw9DX3ZXP9JvGSeVlaUjNuJAMLYn/0ve5kcetmotGRn9VQ==" crossorigin="anonymous"></script>
+
+    <!-- MapBox -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+</head>
+
+<body>
+  <!-- Header-->
+  <header class="header" id="header">
+    <nav class="main-nav" id="nav-main">
+      <!-- logo -->
+      <div class="logo">
+        <a href="index.html">
+          <img id="yuniklogo" src="/img/logo2.png" alt="Yunik Logo" />
+        </a>
+      </div>
+      <!-- Navlinks -->
+      <ul class="nav-links">
+        <li><a href="inspire.html">Inspiration</a></li>
+        <li><a href="katalogload.html">Katalog</a></li>
+        <li>
+        <div class="logo-com">
+          <!-- Logo computer -->
+          <a href="index.html">
+            <img id="yuniklogo-com" src="/img/logo2.png" alt="Yunik Logo" />
+          </a>
+        </div>
+        </li> 
+        <li><a href="omyunik.html">Om Yunik</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+
+      <!-- Burger -->
+      <div class="burger" id="burger">
+        <div class="line-b line1"></div>
+        <div class="line-b line2"></div>
+        <div class="line-b line3"></div>
+      </div>
+    </nav>
+  </header>
+
+<!-- Content -->
+<main>
+
+<section class="om-Yunik">
+
+    <div class="om-citation">
+    <p><span>"</span>Det er unikt. Det er jo ret vigigt, at det ikke er det samme som alt andet. Det er anderledes, og det er meget det, jeg hører - det er ikke, hvad alle andre har.</p>
+  </div>
+  <div class="author">
+    <p>Line Langkilde Vesterbæk</p>
+    <p> - Founder of Yunik - </p>
+  </div>
+
+    <img src="/img/smykker.jpg" alt="Smykker i butikken">
+
+    <div class="hvem-Yunik">
+    <h1>Hvem er Yunik?</h1>
+
+    <p>Yunik er en smykkeproducent samt smykkebutik, der startede op tilbage i 1995 af Ole Vesterbæk. Inspirationen bag Yunik kommer fra Ole og hans kones mange rejser til Sydasien, hvor de fandt mange flotte smykker i små gadeboder og butikker. Dette gav Ole idéen om at starte en smykkeforretning, hvor de ville prioritere kvalitet over kvantitet og lave håndlavede smykker. Dette resulterede i et helt specielt produkt, hvor ingen smykker er ens – derfor fandt de på navnet ”Yunik”.</p>
+
+    <p>I 2003, otte år efter stiftelsen af Yunik, blev Oles kone, Line, en del af forretningen. På dette tidspunkt havde de også flyttet deres butik fra Bruuns Bro til Gammel Munkegade. Det var også dette år, hvor de åbnede deres butik på Bornholm. Dette er en sæsonbutik og er derfor kun åben om sommeren.</p>
+
+    <p> 	Hos Yunik sætter vi en dyd i at levere smukke smykker i høj kvalitet. Vi er leveringsdygtige i smykker af guld og sølv med helt unikke sten og diamanter, som pryder ethvert outfit. På den måde kan du finde lige netop de smykker, der tiltaler dig mest, og skabe det look, der passer til dig. Har du lyst til at udforske vores sortiment? Så kan du tage et kig på vores katalog. Her finder du priser, inspirerende billeder og yderligere informationer om de forskellige sten.</p>
+  
+    </div>  
+    <div class="kvadrat-om-yunik"></div>
+    <div class="kvadrat-om-yunik2"></div>
+  </section>
+
+
+<div class="infographics">
+  <img src="/img/infographicmobil.png" class="info-mobil" alt="Infographics omkring udvælgelse og importering af smykker"/>
+  <img src="/img/infographiccomi.png" class="info-com" alt="Infographics omkring udvælgelse og importering af smykker"/>
+</div>
+
+
+
+
+ <!-- Chatfunktion -->
+ <section>
+  <button class="open_button" onclick="openForm()">&#10068;Chat</button>
+
+  <div class="popup" id="myForm">
+    <form class="form_container">
+      <h5> CHAT &#128171;</h5>
+
+        <textarea placeholder="Har du spørgsmål?" name="msg" required></textarea>
+
+        <button type="submit" class="btn">Send</button>
+
+        <button type="button" class="btn cancel" onclick="closeForm()">Luk chatvindue</button>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-items">
+      <h6>Find os</h6>
+      <p>Gammel Munkegade 17</p>
+      <p>8000, Aarhus C</p>
+      <div id='map' style='width: 300px; height: 300px;'></div>
+    </div>
+    <div class="footer-items">
+      <h6>Åbningstider</h6>
+      <p>Mandag - Fredag: 10:30 - 17:30</p>
+      <p>Lørdag: 10:30- 15:00</p>
+      <p>Søndag: Lukket</p>
+    </div>
+    <div class="footer-items">
+      <h6>Nyhedsbrev</h6>
+      <p>
+        Tilmeld dig vores nyhedsbrev og få opdateringer med vores nyeste
+        produkter.
+      </p>
+      <form class="form-nb">
+        <input type="text" placeholder="E-mail" /><br>
+        <button class="footer-button" type="submit">Tilmeld</button>
+      </form>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Yunik © | CVR: 15803894 | 86 19 98 77</p>
+  </div>
+</footer>
+
+<script src="/js/script-header.js"></script>
+
+<script src="/js/script.js"></script>
+
+</body>
+</html>

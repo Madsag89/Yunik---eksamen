@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Er du til det stacked, feminine eller rå look? | Yunik Jewelry</title>
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- Meta tags -->
+    <meta name="description" content="Lad dig inspirere af, hvordan vi styler vores guld og sølv smykker her, og find lige netop din favorit styling. " />
+    <meta name="keywords" content="YYunik, gave, idéer, mors dag, øreringe, gave til kæreste, gave til veninde, smykker i gave, smykker til gave, smykker i guld, smykker i sølv, armbånd, halskæde" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
+
+    <!-- Ikoner -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    <!-- MapBox -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+
+  </head>
+
+ 
+    <body>
+      <!-- Header-->
+      <header class="header" id="header">
+        <nav class="main-nav" id="nav-main">
+          <!-- logo -->
+          <div class="logo">
+            <a href="index.html">
+              <img id="yuniklogo" src="/img/logo2.png" alt="Yunik Logo" />
+            </a>
+          </div>
+          <!-- Navlinks -->
+          <ul class="nav-links">
+            <li><a href="inspire.html">Inspiration</a></li>
+            <li><a href="katalogload.html">Katalog</a></li>
+            <li>
+            <div class="logo-com">
+              <!-- Logo computer -->
+              <a href="index.html">
+                <img id="yuniklogo-com" src="/img/logo2.png" alt="Yunik Logo" />
+              </a>
+            </div>
+            </li> 
+            <li><a href="omyunik.html">Om Yunik</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+    
+          <!-- Burger -->
+          <div class="burger" id="burger">
+            <div class="line-b line1"></div>
+            <div class="line-b line2"></div>
+            <div class="line-b line3"></div>
+          </div>
+        </nav>
+      </header>
+    <main>
+
+  <!-- Katalog - slidedhow -->
+<section class="katalog">
+<h1 class="overskrift_katalog"> Katalog </h1>
+
+<!-- Katalog - container -->
+<div class="slideshow-container">
+
+    <!-- Katalog - item -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 8</div>
+      <img src="img/01.jpg" alt="Morganit halskæde på lyserødt underlag"/>
+    </div>
+  
+    <!-- Katalog - item -->
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 8</div>
+      <img src="img/02.jpg" alt="Morganit halskæde og armbånd"/>
+    </div>
+    
+    <!-- Katalog - item -->
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 8</div>
+      <img src="img/03.jpg" alt="Morganitringe på hænder"/>
+    </div>
+
+    <!-- Katalog - item -->
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 8</div>
+        <img src="img/04.jpg" alt="Guldringe">
+      </div>
+
+      <!-- Katalog - item -->
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 8</div>
+        <img src="img/05.jpg" alt="Pink morganit ørering samt sølv ørering"/>
+      </div>
+
+      <!-- Katalog - item -->
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 8</div>
+        <img src="img/06.jpg" alt="Find os"/>
+      </div>
+
+      <!-- Katalog - item -->
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 8</div>
+        <img src="img/07.jpg" alt="kontakt os"/>
+      </div>
+
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  </section>
+
+   <!-- Chatfunktion -->
+   <section>
+    <button class="open_button" onclick="openForm()">&#10068;Chat</button>
+
+    <div class="popup" id="myForm">
+      <form class="form_container">
+        <h5> CHAT &#128171;</h5>
+
+          <textarea placeholder="Har du spørgsmål?" name="msg" required></textarea>
+
+          <button type="submit" class="btn">Send</button>
+
+          <button type="button" class="btn cancel" onclick="closeForm()">Luk chatvindue</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-items">
+          <h6>Find os</h6>
+          <p>Gammel Munkegade 17</p>
+          <p>8000, Aarhus C</p>
+          <div id='map' style='width: 300px; height: 300px;'></div>
+        </div>
+        <div class="footer-items">
+          <h6>Åbningstider</h6>
+          <p>Mandag - Fredag: 10:30 - 17:30</p>
+          <p>Lørdag: 10:30- 15:00</p>
+          <p>Søndag: Lukket</p>
+        </div>
+        <div class="footer-items">
+          <h6>Nyhedsbrev</h6>
+          <p>
+            Tilmeld dig vores nyhedsbrev og få opdateringer med vores nyeste
+            produkter.
+          </p>
+          <form class="form-nb">
+            <input type="text" placeholder="E-mail" /><br>
+            <button class="footer-button" type="submit">Tilmeld</button>
+          </form>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Yunik © | CVR: 15803894 | 86 19 98 77</p>
+      </div>
+    </footer>
+
+    <!-- Main script -->
+    <script src="/js/script.js"></script>
+    <!-- Slideshow script -->
+    <script src="/js/slideshow.js"></script>
+    <!-- Aos script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Aos INIT script -->
+    <script src="/js/aosinit.js"></script>
+    <!-- Typed.js script -->
+    <script src="/js/yunik-typed.js"></script>
+    <!-- -->
+    <script src="/js/script-header.js"></script>
+  </body>
+</html>
